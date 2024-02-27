@@ -1,0 +1,134 @@
+/* Enhanced Algomo Style */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f2f5;
+}
+
+.issue-list,
+.issue-details-container {
+  flex: 1;
+  padding: 20px;
+  max-width: 350px;
+  overflow: auto;
+  max-height: 100vh;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.issue-details-container {
+  max-width: 600px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.issue-filter-input {
+  margin: 20px 0;
+  padding: 12px;
+  width: 95%;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+}
+
+.issue-item {
+  margin: 20px 0px;
+  padding: 0px 12px;
+  border: 1px solid #d1d1d1;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+}
+
+.selected-issue {
+  border: 2px solid #007bff; /* Blue border for selected issue */
+  background-color: #e7f1ff; /* Light blue background for distinction */
+}
+
+.issue-item:hover {
+  transform: scale(1.02);
+}
+
+.issue-project {
+  color: grey;
+  position: absolute;
+  right: 6px;
+  top: -5px;
+}
+
+.issue-title {
+  font-size: 18px; /* Assuming heading 1 size, adjust as needed */
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 240px;
+}
+
+.issue-content,
+.issue-header {
+  padding: 20px;
+  border: 1px solid #d1d1d1;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  flex-direction: column;
+  position: relative;
+}
+
+.issue-project-name {}
+
+.issue-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.issue-actions {
+  display: flex;
+  justify-content: end;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.issue-priority,
+.issue-type,
+.issue-assignee {
+  margin-right: 8px;
+  padding: 4px 8px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+}
+
+.action-decline,
+.action-accept {
+  cursor: pointer;
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.action-accept:hover {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.action-decline:hover {
+  background-color: #f44336;
+  color: #ffffff;
+}
+
+.accepted {
+  background: #4caf50;
+  color: #ffffff;
+}

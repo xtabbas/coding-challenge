@@ -1,0 +1,125 @@
+{
+    "issues": [
+        {
+            "title": "Login Page Loading Slowly",
+            "description": "Users are experiencing slow loading times on the login page, potentially due to unoptimized images or scripts.",
+            "type": "Bug",
+            "typeColor": "#FF6347",
+            "project": "PROJ-125",
+            "assignee": "Abbas K.",
+            "priority": "3"
+        },
+        {
+            "title": "Feature Request: Collaborative Editing",
+            "description": "A feature request for collaborative editing in real-time within the app.",
+            "type": "Feature",
+            "typeColor": "#32CD32",
+            "project": "PROJ-124",
+            "assignee": "",
+            "priority": "4"
+        },
+        {
+            "title": "UI Enhancement: Intuitive Navigation",
+            "description": "Feedback suggests that navigation within the app could be more intuitive.",
+            "type": "Enhancement",
+            "typeColor": "#1E90FF",
+            "project": "PROJ-125",
+            "assignee": "Jenna M.",
+            "priority": "3"
+        },
+        {
+            "title": "Security Issue: Data Breach",
+            "description": "A potential data breach has been identified, requiring immediate attention.",
+            "type": "Security",
+            "typeColor": "#FF4500",
+            "project": "PROJ-124",
+            "assignee": "Leo P.",
+            "priority": "5"
+        },
+        {
+            "title": "Incorrect Data Display on Dashboard",
+            "description": "The dashboard is showing incorrect data for some users, possibly due to a caching issue.",
+            "type": "Bug",
+            "typeColor": "#FF6347",
+            "project": "PROJ-125",
+            "assignee": "",
+            "priority": "2"
+        },
+        {
+            "title": "Email Notification Service Down",
+            "description": "Users are not receiving email notifications, indicating the service might be down.",
+            "type": "Bug",
+            "typeColor": "#FF6347",
+            "project": "PROJ-125",
+            "assignee": "",
+            "priority": "5"
+        },
+        {
+            "title": "Mobile App Crashes on Startup",
+            "description": "The mobile app crashes on startup for some Android devices, likely due to a recent update.",
+            "type": "Bug",
+            "typeColor": "#FF6347",
+            "project": "PROJ-125",
+            "assignee": "",
+            "priority": "1"
+        },
+        {
+            "title": "Payment Gateway Timeout",
+            "description": "The payment gateway times out on transactions, causing purchase failures.",
+            "type": "Bug",
+            "typeColor": "#FF6347",
+            "project": "PROJ-125",
+            "assignee": "",
+            "priority": "4"
+        },
+        {
+            "title": "User Profile Picture Upload Error",
+            "description": "Users are unable to upload profile pictures, possibly due to file size restrictions.",
+            "type": "Bug",
+            "typeColor": "#FF6347",
+            "project": "PROJ-125",
+            "assignee": "",
+            "priority": "3"
+        },
+        {
+            "title": "Inaccurate Location Tracking in App",
+            "description": "The app's location tracking feature is inaccurate, affecting user experience.",
+            "type": "Bug",
+            "typeColor": "#FF6347",
+            "project": "PROJ-125",
+            "assignee": "",
+            "priority": "2"
+        },
+        {
+            "title": "Feature Request: Dark Mode",
+            "description": "Users have requested a dark mode feature for better night time usability.",
+            "type": "Feature",
+            "typeColor": "#32CD32",
+            "project": "PROJ-124",
+            "assignee": "",
+            "priority": "5"
+        },
+        {
+            "title": "Data Sync Issues Across Devices",
+            "description": "Users are experiencing issues with data not syncing properly across devices.",
+            "type": "Bug",
+            "typeColor": "#FF6347",
+            "project": "PROJ-125",
+            "assignee": "",
+            "priority": "1"
+        }
+        
+    ],
+    "projects": [
+        {
+            "code": "PROJ-125",
+            "name": "Health Tracker App",
+            "description": "A mobile application designed to help users monitor and improve their health and fitness."
+        },
+        {
+            "code": "PROJ-124",
+            "name": "Productivity Suite",
+            "description": "A suite of productivity tools including document editing, project management, and collaboration features."
+        }
+    ]
+}

@@ -1,3 +1,11 @@
+# How to run the project
+
+run "yarn" to install the dependencies [NODE -v v16.13.0]
+
+1/ "npx ts-node server/index.ts " to start the backend service
+2/ "yarn start" to start the frontend
+3/ "npx playwright test"  run the e2e test suite to test the functionality of the project
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
