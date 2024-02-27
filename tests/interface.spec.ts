@@ -104,8 +104,8 @@ test.describe("Issue Details Testing", () => {
 });
 test.describe("Issue Assignment Testing", () => {
   test("it allows accepting/rejecting issues", async ({ page }) => {
-    await page.fill(".issue-filter-input", "Update");
-    await page.getByText("Update").click();
+    await page.fill(".issue-filter-input", "Feature");
+    await page.getByText("Feature Request: Collaborative").click();
 
     await page.getByText("Accept").click();
     await page.getByText("assigned to");
