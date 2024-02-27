@@ -1,78 +1,60 @@
 # How to run the project
 
-run "yarn" to install the dependencies [NODE -v v16.13.0]
+run "yarn" to install the dependencies [NODE v18.16.1]
 
-1/ "npx ts-node server/index.ts " to start the backend service
-2/ "yarn start" to start the frontend
-3/ "npx playwright test"  run the e2e test suite to test the functionality of the project
+1. `npx ts-node server/index.ts` to start the backend service
+2. `yarn start` to start the frontend
+3. `npx playwright test`  run the e2e test suite to test the functionality of the project
 
-# Getting Started with Create React App
+# `coding-challenge`
+_Paired Programming Coding Challenge for Algomo Engineering Interviews_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi! Thank you for taking the time to complete our coding challenge. The objective is is to build an application for triaging issues, during a **_paired programming interview session_**
 
-## Available Scripts
+Depending on the role you have applied for, the focus will be full-stack or front-end focused. 
 
-In the project directory, you can run:
+We want to understand how you work and get a view into your thought process/problem solving skills. As with all interviews this is a two-way street - it's also an opportunity for you to evaluate working with us! 🙂
 
-### `npm start`
+## `tl;dr`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- The paired-programming session should take around 1.5 hours
+  - Expect around 1 hour of coding, and 30 minutes at the end for technical questions about your solution
+- **We're not expecting you to develop the entire application within the timeslot!**
+  - It's up to you to decide how to break the problem into smaller features/what to build during the session
+  - Ultimately we want to assess your technical skills and problem-solving abilities
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instructions
 
-### `npm test`
+- [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository in GitHub
+- Make sure you have VSCode installed, along with the [LiveShare](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) extension
+- The back-end should be written using NodeJS/TypeScript, and the front-end using React
+  - If you are more comfortable using other languages, please let us know before arranging the interview!
+- **Before the interview, you should bootstrap your repository fork with a basic scaffold for the application**.
+  - You are free to structure the repository how you see fit
+    - If you're not sure where to start, we recommend running `yarn create vite` for the front end or using https://github.com/mantinedev/vite-template
+    - For the back-end (if applicable) there are plenty of choices (Nest.js, Express, Koa, Fastify, just to name a few), again if you're not sure which to use, then we suggest [Express](https://expressjs.com/)
+  - You do not need to worry about choosing a database - it is completely fine to use stub data instead
+  - You should include instructions on how to run the application (e.g. `docker-compose up`), along with any pre-requisites for installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Application Requirements
 
-### `npm run build`
+We want you to build an issue triaging board (think something along the lines of JIRA/Linear)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This application should consist of two main services: UI and Issue Management (back-end).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**_If you are applying for a front-end role, you can ignore the back-end service and instead stub network requests._**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Build an application with the following functionality (you may use the layout below for inspiration):
 
-### `npm run eject`
+- Display a list of all Issues to be Triaged
+- Filter the list of Issues
+- View details for the selected Issue
+- Accept or Decline Issues
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Issue triaging](Coding Challenge.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Final Thoughts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This exercise leaves you a fair amount of flexibility. This emulates the way we work. We are a dynamic start-up and a successful candidate will often have to deal with similar uncertainty.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Above all, we hope this test is enjoyable! We'd love to hear your feedback too.
